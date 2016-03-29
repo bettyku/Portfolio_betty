@@ -1,0 +1,10 @@
+{% extends "templates/base.html" %}
+{% block content %} 
+	<p>Please log in</p>
+	<p>{{result}}</p>
+	<form action = "/login.html" method = "post">
+		<label>username: <input type = "text" name ="user"/></label>
+		<label>password: <input type = "password" name ="pw"/></label>
+		<input type = "submit" value = "login">
+	</form> 
+{%endblock%}

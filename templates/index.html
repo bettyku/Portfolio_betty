@@ -1,0 +1,46 @@
+
+{% extends "templates/base.html" %}
+{% block content %}
+<div class="header-container">
+	<div class="video-container">
+		<video preload="true" autoplay="autoply" loop="loop" volume="0" poster="static/portfolio.png">
+        	<source src="static/portfolio.mp4" type="video/mp4">
+    	</video>
+	</div>
+	<h3>Nice to meet you:></h3>
+</div>
+<body>
+    <header>
+
+	        <h1>Fluid Measurements</h1>
+	        <h2>Colleen van Lent</h2>
+    </header>
+    
+    <main>
+      <!-- Content -->
+      <p>What happens when you hardcode the values of your elements?  In this case, I have a section that is set to 940px.  Each of the content columns is set to 300px.  What could go wrong?</p>
+      <div class="col-md-8">
+        <h2>Content</h2>
+        <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+      </div>
+      <div class="column">
+        <h2>Content</h2>
+        <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+      </div>
+       <div class="column">
+        <h2>Content</h2>
+        <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+      </div>
+    </main><!-- .row -->
+
+  </body>
+
+
+
+
+<!-- <div class="fullscreen-bg">
+    <video loop muted autoplay poster="static/portfolio.png" class="fullscreen-bg__video">
+        <source src="static/portfolio.mp4" type="video/mp4">
+    </video>
+</div> -->
+{%endblock%}
